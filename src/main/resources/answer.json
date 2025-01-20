@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "processedDate": "01/03/2025",
+    "orderNumber": "3362135",
+    "ownerName": "RICHARD SALAS and PATRICIA SALAS",
+    "propertyAddress": "530 Evangeline Way, Hayward CA 94544",
+    "city": "Hayward",
+    "state": "CA",
+    "zipCode": "94544",
+    "landValue": "$213506.00",
+    "improvements": "$498182.00",
+    "totalAssessedValue": "$711688.00",
+    "taxingAuthorities": [
+      {
+        "taxSummaryParcelNumber": "78G-2962-24",
+        "taxAuthority": "COUNTY - 2024-2025 - 1st half",
+        "county": "ALAMEDA",
+        "payStatus": "Paid",
+        "amountPaid": "$4702.17",
+        "amountDue": "$0.00",
+        "billDate": "11/01/2024",
+        "lastDayToPay": "12/10/2024",
+        "dlqDate": "12/11/2024",
+        "goodThroughDate": "12/06/2024",
+        "paidDate": "11/01/2025",
+        "nextDueDate": "N/A",
+        "exemptions": "HOMEOWNER : $7000.00",
+        "additionalLiens": "NONE",
+        "backTaxes": "N/A"
+      },
+      {
+        "taxSummaryParcelNumber": "78G-2962-24",
+        "taxAuthority": "COUNTY - 2024-2025 - 2nd half",
+        "county": "ALAMEDA",
+        "payStatus": "Open",
+        "amountPaid": "$0.00",
+        "amountDue": "$4702.17",
+        "billDate": "02/01/2025",
+        "lastDayToPay": "04/10/2025",
+        "dlqDate": "04/11/2025",
+        "goodThroughDate": "N/A",
+        "paidDate": "N/A",
+        "nextDueDate": "02/01/2026",
+        "exemptions": "HOMEOWNER : $7000.00",
+        "additionalLiens": "NONE",
+        "backTaxes": "N/A"
+      }
+    ]
+  }
+}

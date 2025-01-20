@@ -1,0 +1,26 @@
+# This file contains the configuration for the Spring Boot application.
+spring:
+    application:
+        name: spring-ai-pdf-rag-chat
+    datasource:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: postgres
+    ai:
+      openai:
+        api-key: ${OPENAI_API_KEY}
+        chat:
+            options:
+                model: gpt-4o-mini
+          #response-format: json_object
+    vectorstore:
+     pgvector:
+     index-type: HNSW
+     distance-type: COSINE_DISTANCE
+     dimensions: 1536
+     initialize-schema: true
+     schema-validation: true
+     remove-existing-vector-store: false
+
+server:
+    port: 8090
